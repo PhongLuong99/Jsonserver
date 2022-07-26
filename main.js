@@ -14,7 +14,7 @@ server.use(jsonServer.defaults());
 
 const SECRET_KEY = '123456789'
 
-const expiresIn = '20s'
+const expiresIn = '3h'
 // Set default middlewares (logger, static, cors and no-cache)
 //server.use(middlewares)
 
